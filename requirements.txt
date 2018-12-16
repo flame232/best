@@ -1,7 +1,5 @@
 discord
 asyncio
 requests
-discord.ext
-commands
 random
 json
