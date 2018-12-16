@@ -1259,4 +1259,4 @@ async def announce(ctx, *, args):
 # THIS WILL TURN ON YOUR BOT
 requests.post('https://cleverbot.io/1.0/create', json={'user': CBuser, 'key': CBkey, 'nick': 'Paradise'})
 
-client.run('NDAxNDE5MzAwMDk2NzA0NTI1.DvZjQw.z8waYBAvmtIOYy0NkEs4PWgHKMo')
+client.run(os.getenv('Token'))
